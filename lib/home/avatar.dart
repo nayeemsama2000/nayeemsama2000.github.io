@@ -89,7 +89,7 @@ class _AvatarWidgetState extends State<AvatarWidget>
             child: CircleAvatar(
               radius: Utils.avatarSize(context),
               backgroundColor: Colors.transparent, // Fixes blue overlay issue
-              backgroundImage: const AssetImage('images/dp.webp'),
+              backgroundImage: const AssetImage('assets/images/dp.webp'),
             ),
           ),
         ),
