@@ -3,8 +3,8 @@ final List<Map<String, dynamic>> projectsLarge = [
     "title": "🧪 Test Project",
     "description":
     "```shell\n"
-        "nayeemsama2000@dev:~\$ cd test_project\n"
-        "nayeemsama2000@dev:~/ClassHub\$ npm start\n"
+        "nayeem-sama@dev:~\$ cd test_project\n"
+        "nayeem-sama@dev:~/ClassHub\$ npm start\n"
         "[✔] Server Running on Port 8000\n"
         "[✔] Database Connected\n"
         "```\n\n"
@@ -26,8 +26,8 @@ final List<Map<String, dynamic>> projectsLarge = [
     "title": "🗂️ Portfolio [ Old ]",
     "description":
     "```shell\n"
-        "nayeemsama2000@dev:~\$ cd OldPortfolio\n"
-        "nayeemsama2000@dev:~/OldPortfolio\$ git status\n"
+        "nayeem-sama@dev:~\$ cd OldPortfolio\n"
+        "nayeem-sama@dev:~/OldPortfolio\$ git status\n"
         "[⚠] This project is archived\n"
         "```\n\n"
         "⚠️ Legacy Portfolio (v1.0)\n\n"
@@ -47,8 +47,8 @@ final List<Map<String, dynamic>> projectsLarge = [
     "title": "💻 Portfolio [ Current ]",
     "description":
     "```shell\n"
-        "nayeemsama2000@dev:~\$ cd Portfolio\n"
-        "nayeemsama2000@dev:~/Portfolio\$ flutter build web\n"
+        "nayeem-sama@dev:~\$ cd Portfolio\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build web\n"
         "[✔] Compiling... Done!\n"
         "```\n\n"
         "🌐 Portfolio v2.0 – The Site You're Browsing\n\n"
@@ -73,8 +73,8 @@ final List<Map<String, dynamic>> projectsMedium = [
     "title": "Test Project",
     "description":
     "```shell\n"
-        "nayeemsama2000@dev:~\$ cd ClassHub\n"
-        "nayeemsama2000@dev:~/ClassHub\$ npm run dev\n"
+        "nayeem-sama@dev:~\$ cd ClassHub\n"
+        "nayeem-sama@dev:~/ClassHub\$ npm run dev\n"
         "[✔] Server Running on Port 8000\n"
         "```\n\n"
         "📌 ClassHub: The Ultimate Study Companion\n\n"
@@ -93,8 +93,8 @@ final List<Map<String, dynamic>> projectsMedium = [
     "title": "Portfolio (Old)",
     "description":
     "```shell\n"
-        "nayeemsama2000@dev:~\$ cd OldPortfolio\n"
-        "nayeemsama2000@dev:~/OldPortfolio\$ git log --oneline\n"
+        "nayeem-sama@dev:~\$ cd OldPortfolio\n"
+        "nayeem-sama@dev:~/OldPortfolio\$ git log --oneline\n"
         "[⚠] Last update: 2 years ago\n"
         "```\n\n"
         "⚠️ Legacy Portfolio v1.0\n\n"
@@ -111,8 +111,8 @@ final List<Map<String, dynamic>> projectsMedium = [
     "title": "Portfolio (New) (Current Site)",
     "description":
     "```shell\n"
-        "nayeemsama2000@dev:~\$ cd Portfolio\n"
-        "nayeemsama2000@dev:~/Portfolio\$ flutter run\n"
+        "nayeem-sama@dev:~\$ cd Portfolio\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter run\n"
         "[✔] Running on Web\n"
         "```\n\n"
         "🖥️ Portfolio v2.0 – The site you're browsing!\n\n"
@@ -135,8 +135,8 @@ final List<Map<String, dynamic>> projectsSmall = [
     "title": "Test Project",
     "description":
     "```shell\n"
-        "nayeemsama2000@dev:~\$ cd ClassHub\n"
-        "nayeemsama2000@dev:~/ClassHub\$ pm2 restart server\n"
+        "nayeem-sama@dev:~\$ cd ClassHub\n"
+        "nayeem-sama@dev:~/ClassHub\$ pm2 restart server\n"
         "[✔] Restarting...\n"
         "```\n\n"
         "📌 ClassHub: Ultimate Study Tool\n\n"
@@ -152,8 +152,8 @@ final List<Map<String, dynamic>> projectsSmall = [
     "title": "Portfolio (Old)",
     "description":
     "```shell\n"
-        "nayeemsama2000@dev:~\$ cd OldPortfolio\n"
-        "nayeemsama2000@dev:~/OldPortfolio\$ ls\n"
+        "nayeem-sama@dev:~\$ cd OldPortfolio\n"
+        "nayeem-sama@dev:~/OldPortfolio\$ ls\n"
         "[⚠] No active development\n"
         "```\n\n"
         "⚠️ Legacy Portfolio v1.0\n\n"
@@ -168,8 +168,8 @@ final List<Map<String, dynamic>> projectsSmall = [
     "title": "Portfolio (New)",
     "description":
     "```shell\n"
-        "nayeemsama2000@dev:~\$ cd Portfolio\n"
-        "nayeemsama2000@dev:~/Portfolio\$ git push vercel main\n"
+        "nayeem-sama@dev:~\$ cd Portfolio\n"
+        "nayeem-sama@dev:~/Portfolio\$ git push vercel main\n"
         "[✔] Deployed Successfully\n"
         "```\n\n"
         "🖥️ Portfolio v2.0 – The Site You're Browsing\n\n"

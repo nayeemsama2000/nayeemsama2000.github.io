@@ -29,17 +29,17 @@ class SocialLinksWidget extends StatelessWidget {
     final List<Map<String, String>> socialData = [
       {
         "icon": "assets/icon/github.png",
-        "url": "https://github.com/nayeem-sama",
-        "name": "github.com/nayeem-sama"
+        "url": "https://github.com/nayeemsama2000",
+        "name": "github.com/nayeemsama"
       },
       {
         "icon": "assets/icon/instagram.png",
-        "url": "https://instagram.com/Its.nayeem_pr",
-        "name": "instagram.com/Its.nayeem_pr"
+        "url": "https://www.instagram.com/nayeem_sama00/",
+        "name": "instagram.com/nayeem_sama00"
       },
       {
         "icon": "assets/icon/linked.png",
-        "url": "https://linkedin.com/in/nayeem-sama",
+        "url": "https://www.linkedin.com/in/nayeem-sama-15842622a",
         "name": "linkedin.com/nayeem-sama"
       },
     ];

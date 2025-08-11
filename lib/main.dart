@@ -40,7 +40,7 @@ class _MyAppState extends State<MyApp> {
     return Consumer<ThemeProvider>(
       builder: (context, themeProvider, child) {
         return MaterialApp(
-          title: 'Nilesh Prajapat | App Developer & Student | Portfolio',
+          title: 'Nayeem Sama | Software Developer | Portfolio',
           debugShowCheckedModeBanner: false,
           theme: lightTheme(16.0),
           darkTheme: darkTheme(16.0),
