@@ -44,7 +44,7 @@ class IntroWidget extends StatelessWidget {
           ),
           const SizedBox(height: 5),
           Text(
-            "Nayeem Sama",
+            "Nayeem Samaa1",
             style: GoogleFonts.spaceMono(
               letterSpacing: 1,
               color: isDarkMode ? darkTextColor : lightTextColor,
