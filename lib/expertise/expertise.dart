@@ -73,7 +73,7 @@ class _SkillsPageState extends State<SkillsPage>
             isDarkMode: isDarkMode,
           ),
         ),
-        if (screenWidth >= 850) ...[
+        if (false) ...[
           SizedBox(height: sectionSpacing * 0.8),
           GitHubStats(),
           SizedBox(height: sectionSpacing * 0.8),
