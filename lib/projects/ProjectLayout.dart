@@ -66,7 +66,7 @@ class _ProjectsecState extends State<Projectsec> {
               AppCard(
                 mockupImages: [
                   "assets/images/classhub.webp",
-                  "assets/images/Portfolio.webp",
+                  "assets/images/classhub.webp",
                   "assets/images/portfolion.webp",
                 ],
                 onIndexChanged: updateIndex,
