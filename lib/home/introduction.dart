@@ -34,7 +34,7 @@ class IntroWidget extends StatelessWidget {
             : CrossAxisAlignment.center,
         children: [
           SymbolHighlighter(
-            text: "Hello, I'm",
+            text: "Helloooo2, I'm",
             style: GoogleFonts.spaceMono(
               letterSpacing: 2,
               color: isDarkMode ? darkTextColor : lightTextColor,
