@@ -76,7 +76,7 @@ class SocialLinksWidget extends StatelessWidget {
   }
 
   Widget _socialItem(String icon, Uri uri, String name, double iconSize, TextStyle textStyle) {
-    return GestureDetector(
+    return InkWell(
       onTap: () async {
         if (await canLaunchUrl(uri)) {
           await launchUrl(uri, mode: LaunchMode.platformDefault);
@@ -85,6 +85,7 @@ class SocialLinksWidget extends StatelessWidget {
         }
       },
       child: Row(
+        mainAxisSize: MainAxisSize.min,
         children: [
           ImageIcon(
             AssetImage(icon),

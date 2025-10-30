@@ -108,7 +108,7 @@ class IntroWidget extends StatelessWidget {
                 onPressed: () async {
                   final Uri url = Uri.parse(
 
-                      "https://drive.google.com/file/d/193A_WLqQisV4AIEciF4tsN86KNtgN3tG/view?usp=sharing");
+                      "https://drive.google.com/file/d/1RlzeA5eA1dF0g9M6VnTlrf6zNs4lJ1oz/view?usp=sharing");
 
                   if (await canLaunchUrl(url)) {
                     await launchUrl(url, mode: LaunchMode.externalApplication);

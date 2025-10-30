@@ -36,20 +36,20 @@ class _SkillCardState extends State<SkillCard> {
 
    final xPos = (size.width - containerWidth) / 2;
     final yPos = (size.height ) / 3;
-    return GestureDetector(
-      onTap: () {
-        showDialog(
-          context: context,
-          barrierDismissible: false, // Prevents background interaction
-          builder: (context) {
-            return Popup( discription: widget.description, icon:widget.icon, title: widget.name, containerWidth: containerWidth, xPos: xPos, yPos: yPos,lock:(1.5),popupType: 'skill',);
-          },
-        );
-      },
-
-      child: MouseRegion(
-        onEnter: (_) => setState(() => _isHovered = true),
-        onExit: (_) => setState(() => _isHovered = false),
+    return MouseRegion(
+      cursor: SystemMouseCursors.click,
+      onEnter: (_) => setState(() => _isHovered = true),
+      onExit: (_) => setState(() => _isHovered = false),
+      child: GestureDetector(
+        onTap: () {
+          showDialog(
+            context: context,
+            barrierDismissible: false, // Prevents background interaction
+            builder: (context) {
+              return Popup( discription: widget.description, icon:widget.icon, title: widget.name, containerWidth: containerWidth, xPos: xPos, yPos: yPos,lock:(1.5),popupType: 'skill',);
+            },
+          );
+        },
         child: Transform.scale(
           scale: _isHovered ? 1.1 : 1.0, // Scale effect on hover
           child: AnimatedContainer(
