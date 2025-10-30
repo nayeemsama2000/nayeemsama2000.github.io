@@ -1,184 +1,239 @@
 final List<Map<String, dynamic>> projectsLarge = [
   {
-    "title": "🧪 Test Project",
+    "title": "🔗 Connect",
     "description":
     "```shell\n"
-        "nayeem-sama@dev:~\$ cd test_project\n"
-        "nayeem-sama@dev:~/ClassHub\$ npm start\n"
-        "[✔] Server Running on Port 8000\n"
-        "[✔] Database Connected\n"
-        "```\n\n"
-        "📌 ClassHub: The Testing Project Tool\n\n"
-        "📂 A complete tool companion for developers, providing access to multiple tools, "
-        "util, so every developer can benefit from it.\n\n"
-        "🛠 Features:\n"
-        "   - 📖 Comprehensive syllabus & notes storage\n"
-        "   - 📝 College assignments with deadline tracking\n"
-        "   - 🎓 Student profile with exam results\n"
-        "   - 🤖 AI-powered study assistance via Gemini API\n\n"
-        "🔧 Tech Stack: Flutter | MongoDB | Node.js | Gemini API\n"
-        "✅ Status: Completed ✅",
-    "github": "https://github.com/Nayeem-Sama/test_tool",
-    "image": "assets/images/classhub_large.webp",
-    "imageFirst": false,
-  },
-  {
-    "title": "🗂️ Portfolio [ Old ]",
-    "description":
-    "```shell\n"
-        "nayeem-sama@dev:~\$ cd OldPortfolio\n"
-        "nayeem-sama@dev:~/OldPortfolio\$ git status\n"
-        "[⚠] This project is archived\n"
-        "```\n\n"
-        "⚠️ Legacy Portfolio (v1.0)\n\n"
-        "🖥️ A static portfolio created as a college minor project. It showcased projects, skills, "
-        "contact info, and education, but lacked advanced interactivity.\n\n"
-        "🛠 Features:\n"
-        "   - 📄 Static layout with essential sections\n"
-        "   - 🎭 Minimal UI for project & skills showcase\n"
-        "   - 🚀 Hosted on GitHub (Archived)\n\n"
-        "🔧 Tech Stack: Flutter\n"
-        "📌 Status: Archived",
-    "github": "https://github.com/nayeem-sama/PortFolio",
-    "image": "assets/images/oldportfolio_large.webp",
-    "imageFirst": true,
-  },
-  {
-    "title": "💻 Portfolio [ Current ]",
-    "description":
-    "```shell\n"
-        "nayeem-sama@dev:~\$ cd Portfolio\n"
-        "nayeem-sama@dev:~/Portfolio\$ flutter build web\n"
+        "nayeem-sama@dev:~\$ cd Connect\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
         "[✔] Compiling... Done!\n"
         "```\n\n"
-        "🌐 Portfolio v2.0 – The Site You're Browsing\n\n"
-        "🚀 A modern, fully responsive Flutter web app with smooth animations, "
-        "adaptive dark/light themes, and a sleek UI—all built purely in Flutter.\n\n"
+        "🔗 Connect – The App to bring you loved ones closer\n\n"
+        "⌚ A real-time chat and calling application built with Flutter and Node.js, "
+        "designed for smooth messaging, instant search, and high-quality audio/video calls using Agora. \n\n"
         "🛠 Features:\n"
-        "   - 📱 Fully responsive web app\n"
-        "   - 🎨 Dynamic animations & smooth transitions\n"
-        "   - 🌙 Adaptive dark & light themes\n"
-        "   - 🚀 Hosted on Vercel for seamless performance\n\n"
-        "🔧 Tech Stack: Flutter | Vercel\n"
+        "   - 📱 Login → Simple one-field login (enter your name, start chatting)\n"
+        "   - 🔍 User List with Search → See all users, search instantly by name\n"
+        "   - 💬 Real-time Chat → \n"
+        "          - One-to-one messaging with Socket.IO\n"
+        "          - Messages stored in MongoDB\n"
+        "          - Chat auto-scrolls to bottom on open & new message\n"
+        "   - 📞 Voice/Video Calling →\n"
+        "          - Built with Agora SDK\n"
+        "          - Real-time connection, auto role handling\n"
+        "🔧 Tech Stack: Flutter | Mongo DB | Socket.IO\n"
         "✅ Status: Live & Active",
-    "github": "https://github.com/nayeem-sama/PortFolio-v2",
-    "image": "assets/images/portfolion_large.webp",
-    "imageFirst": false,
+    "github": "https://github.com/nayeemsama2000/Connect",
+  },
+  {
+    "title": "🚀 Starship",
+    "description":
+    "```shell\n"
+        "nayeem-sama@dev:~\$ cd Starship\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
+        "```\n\n"
+        "🚀 Starship – Fly, Shoot, Compete!! \n\n"
+        "🔫 Blast through waves of enemy ships in a Single and One-to-One player starship shooting game."
+        "Dodge, shoot, and collect power-ups as you conquer the endless cosmic battlefield. \n\n"
+        "🛠 Features:\n"
+        "   - 🚀 Classic Arcade Action → Fast-paced space shooting inspired by retro games.\n"
+        "   - 🌌 Endless Adventure → Battle through infinite waves of enemies in dynamic space levels\n"
+        "   - 💥 Upgrade & Power Up → Collect boosts to enhance your firepower and defenses\n"
+        "   - 🕹️ Smooth Controls → Intuitive touch gameplay designed for precision and fun\n"
+        "   - ⭐ Pixel Art Style → Vibrant retro visuals and immersive starfield effects\n"
+        "🔧 Tech Stack: Flutter | Firebase | Flame\n"
+        "✅ Status: Live & Active",
+    "github": "https://github.com/nayeemsama2000/starship",
+  },
+  {
+    "title": "🫙 Moodjar",
+    "description":
+    "```shell\n"
+        "nayeem-sama@dev:~\$ cd Moodjar\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
+        "```\n\n"
+        "🫙 MoodJar – Mood = Coin \n\n"
+        "🚀 MoodJar combines emotion detection AI and blockchain technology "
+        "to create a fun, interactive, and futuristic web experience. "
+        "Users can smile in front of their webcam, let the ML model analyze their emotion, and earn crypto coins  \n\n"
+        "🛠 Features:\n"
+        "   - 🎥 Real-Time Emotion Detection → Detects facial expressions in real-time using lightweight ML models\n"
+        "   - 💰 Smile-to-Earn Mechanism → Converts smile intensity and authenticity into a rewardable tokens\n"
+        "   - 👤 User Dashboard → Displays current coin balance, daily smiles and many other features\n"
+        "   - 🧠 Client-Side Machine Learning → Uses TensorFlow.js for emotion recognition — no backend required\n"
+        "   - 🔗 Blockchain Integration → Built with Web3Dart and connected to MetaMask wallet\n"
+        "🔧 Tech Stack: Flutter | TenserFlow | Blockchain\n"
+        "✅ Status: Live & Active",
+    "github": "https://github.com/nayeemsama2000/mood_jar",
+  },
+  {
+    "title": "🏃 Hopper",
+    "description":
+    "```shell\n"
+        "nayeem-sama@dev:~\$ cd Hopper\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
+        "```\n\n"
+        "🏃 Hopper – Jump, Dodge, repeat!! \n\n"
+        "🚀 Jump, dodge, and collect stars in Hopper Adventure! "
+        "Navigate tricky platforms, avoid enemies, and master your timing \n\n"
+        "🛠 Features:\n"
+        "   - 🟡 Simple Yet Challenging Gameplay → Easy to play, hard to master platform jumping\n"
+        "   - ⭐ Collect & Conquer → Grab stars and complete levels with precision jumps.\n"
+        "   - 👾 Dodge Enemies → Outsmart blue blobs and avoid falling into traps\n"
+        "   - 🎮 Smooth Controls → Responsive on-screen buttons for seamless movement\n"
+        "   - 🎨 Retro Pixel Graphics → Nostalgic visuals with a modern arcade twist\n"
+        "🔧 Tech Stack: Flutter | Flame \n"
+        "✅ Status: Live & Active",
+    "github": "",
   },
 ];
 
 
 final List<Map<String, dynamic>> projectsMedium = [
   {
-    "title": "Test Project",
+    "title": "🔗 Connect",
     "description":
     "```shell\n"
-        "nayeem-sama@dev:~\$ cd ClassHub\n"
-        "nayeem-sama@dev:~/ClassHub\$ npm run dev\n"
-        "[✔] Server Running on Port 8000\n"
+        "nayeem-sama@dev:~\$ cd Connect\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
         "```\n\n"
-        "📌 ClassHub: The Ultimate Study Companion\n\n"
-        "📂 A centralized platform for students to access syllabus, notes, assignments, and exam results.\n"
-        "🤖 AI-powered study assistance using the Gemini API for smarter learning.\n"
-        "📅 Assignment Tracker: Organizes tasks with due dates.\n"
-        "📊 Student Profile: Stores academic progress and results.\n"
-        "⚡ Features: AI-powered content, deadline reminders, and structured study materials.\n"
-        "🔧 Tech Stack: Flutter | MongoDB | Node.js | Gemini API\n"
-        "✅ Status: Completed & Available",
-    "github": "https://github.com/Nayeem-Sama/test_tool",
-    "image": "assets/images/classhub.webp",
-    "imageFirst": false,
+        "🔗 Connect – The App to bring you loved ones closer\n\n"
+        "🛠 Features:\n"
+        "📱 Login: Simple one-field login (enter your name, start chatting)\n"
+        "🔍 User List with Search: See all users, search instantly by name\n"
+        "💬 Real-time Chat: One-to-one messaging with Socket.IO\n"
+        "📞 Voice/Video Calling: Built with Agora SDK\n"
+        "🔧 Tech Stack: Flutter | Mongo DB | Socket.IO\n"
+        "✅ Status: Live & Active",
+    "github": "https://github.com/nayeemsama2000/Connect",
   },
   {
-    "title": "Portfolio (Old)",
+    "title": "🚀 Starship",
     "description":
     "```shell\n"
-        "nayeem-sama@dev:~\$ cd OldPortfolio\n"
-        "nayeem-sama@dev:~/OldPortfolio\$ git log --oneline\n"
-        "[⚠] Last update: 2 years ago\n"
+        "nayeem-sama@dev:~\$ cd Starship\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
         "```\n\n"
-        "⚠️ Legacy Portfolio v1.0\n\n"
-        "📂 A static portfolio app developed as a college minor project, featuring project showcases and skills.\n"
-        "📌 Simple & Minimal UI: Displays essential information in a clean format.\n"
-        "📜 Archived on GitHub: No longer maintained but serves as a reference for my early work.\n"
-        "🔧 Tech Stack: Flutter\n"
-        "📌 Status: Archived",
-    "github": "https://github.com/nayeem-sama/PortFolio",
-    "image": "assets/images/Portfolio.webp",
-    "imageFirst": true,
+        "🚀 Starship – Fly, Shoot, Compete!! \n\n"
+        "🛠 Features:\n"
+        "🚀 Classic Arcade Action: Fast-paced space shooting inspired by retro games.\n"
+        "🌌 Endless Adventure: Battle through infinite enemies.\n"
+        "💥 Upgrade & Power Up: Collect boosts to enhance your firepower and defenses\n"
+        "🕹️ Smooth Controls: Intuitive touch gameplay designed for precision and fun\n"
+        "🔧 Tech Stack: Flutter | Firebase | Flame\n"
+        "✅ Status: Live & Active",
+    "github": "https://github.com/nayeemsama2000/starship",
   },
   {
-    "title": "Portfolio (New) (Current Site)",
+    "title": "🫙 Moodjar",
     "description":
     "```shell\n"
-        "nayeem-sama@dev:~\$ cd Portfolio\n"
-        "nayeem-sama@dev:~/Portfolio\$ flutter run\n"
-        "[✔] Running on Web\n"
+        "nayeem-sama@dev:~\$ cd Moodjar\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
         "```\n\n"
-        "🖥️ Portfolio v2.0 – The site you're browsing!\n\n"
-        "📂 A modern Flutter web app with a sleek UI, smooth animations, and adaptive dark/light themes.\n"
-        "⚡ Features: Fully responsive, interactive UI, dynamic transitions, optimized for performance.\n"
-        "🌐 Hosted on: Vercel with automatic deployment.\n"
-        "🔧 Tech Stack: Flutter | Dart | Vercel\n"
-        "🚀 Status: Live & Actively Maintained",
-    "github": "https://github.com/nayeem-sama/PortFolio-v2",
-    "image": "assets/images/portfolion.webp",
-    "imageFirst": true,
+        "🫙 MoodJar – Mood = Coin \n\n"
+        "🛠 Features:\n"
+        "🎥 Real-Time Emotion Detection: Detects facial expressions in real-time using lightweight models\n"
+        "💰 Smile-to-Earn Mechanism: Converts smile intensity and authenticity into a rewardable tokens\n"
+        "👤 User Dashboard: Displays current coin balance, daily smiles and many other features\n"
+        "🧠 Client-Side Machine Learning: Uses TensorFlow.js for emotion recognition\n"
+        "🔗 Blockchain Integration: Built with Web3Dart and connected to MetaMask wallet\n"
+        "🔧 Tech Stack: Flutter | TenserFlow | Blockchain\n"
+        "✅ Status: Live & Active",
+    "github": "https://github.com/nayeemsama2000/mood_jar",
   },
-
-
+  {
+    "title": "🏃 Hopper",
+    "description":
+    "```shell\n"
+        "nayeem-sama@dev:~\$ cd Hopper\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
+        "```\n\n"
+        "🏃 Hopper – Jump, Dodge, repeat!! \n\n"
+        "🛠 Features:\n"
+        "🟡 Simple Yet Challenging Gameplay: Easy to play, hard to master platform jumping\n"
+        "⭐ Collect & Conquer: Grab stars and complete levels with precision jumps.\n"
+        "👾 Dodge Enemies: Outsmart blue blobs and avoid falling into traps\n"
+        "🎮 Smooth Controls: Responsive on-screen buttons for seamless movement\n"
+        "🎨 Retro Pixel Graphics: Nostalgic visuals with a modern arcade twist\n"
+        "🔧 Tech Stack: Flutter | Flame \n"
+        "✅ Status: Live & Active",
+    "github": "",
+  },
 ];
 
 
 final List<Map<String, dynamic>> projectsSmall = [
   {
-    "title": "Test Project",
+    "title": "🔗 Connect",
     "description":
     "```shell\n"
-        "nayeem-sama@dev:~\$ cd ClassHub\n"
-        "nayeem-sama@dev:~/ClassHub\$ pm2 restart server\n"
-        "[✔] Restarting...\n"
+        "nayeem-sama@dev:~\$ cd Connect\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
         "```\n\n"
-        "📌 ClassHub: Ultimate Study Tool\n\n"
-        "📂 One-stop study app with syllabus, notes & assignments.\n"
-        "⚡ Features: Assignments, student profiles, exam results.\n"
-        "🔧 Tech: Flutter | MongoDB | Node.js | Gemini API\n"
-        "✅ Status: Completed",
-    "github": "https://github.com/Nayeem-Sama/test_tool",
-    "image": "assets/images/classhub.webp",
-    "imageFirst": false,
+        "🔗 Connect – The App to bring you loved ones closer\n\n"
+        "🛠 Features:\n"
+        "📱 Login: Simple one-field login (enter your name, start chatting)\n"
+        "🔍 User List with Search: See all users, search instantly by name\n"
+        "💬 Real-time Chat: One-to-one messaging with Socket.IO\n"
+        "✅ Status: Live & Active",
+    "github": "https://github.com/nayeemsama2000/Connect",
   },
   {
-    "title": "Portfolio (Old)",
+    "title": "🚀 Starship",
     "description":
     "```shell\n"
-        "nayeem-sama@dev:~\$ cd OldPortfolio\n"
-        "nayeem-sama@dev:~/OldPortfolio\$ ls\n"
-        "[⚠] No active development\n"
+        "nayeem-sama@dev:~\$ cd Starship\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
         "```\n\n"
-        "⚠️ Legacy Portfolio v1.0\n\n"
-        "📂 Static portfolio app with projects, skills & contact info.\n"
-        "🔧 Tech: Flutter\n"
-        "📌 Status: Archived",
-    "github": "https://github.com/nayeem-sama/PortFolio",
-    "image": "assets/images/Portfolio.webp",
-    "imageFirst": true,
+        "🚀 Starship – Fly, Shoot, Compete!! \n\n"
+        "🛠 Features:\n"
+        "🚀 Classic Arcade Action: Fast-paced space shooting inspired by retro games.\n"
+        "🌌 Endless Adventure: Battle through infinite enemies.\n"
+        "🔧 Tech Stack: Flutter | Firebase | Flame\n"
+        "✅ Status: Live & Active",
+    "github": "https://github.com/nayeemsama2000/starship",
   },
   {
-    "title": "Portfolio (New)",
+    "title": "🫙 Moodjar",
     "description":
     "```shell\n"
-        "nayeem-sama@dev:~\$ cd Portfolio\n"
-        "nayeem-sama@dev:~/Portfolio\$ git push vercel main\n"
-        "[✔] Deployed Successfully\n"
+        "nayeem-sama@dev:~\$ cd Moodjar\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
         "```\n\n"
-        "🖥️ Portfolio v2.0 – The Site You're Browsing\n\n"
-        "📌 Built with Flutter, featuring a modern UI, animations, and dark/light themes.\n"
-        "🔧 Tech: Flutter | Vercel\n"
-        "🚀 Status: Live & Active",
-    "github": "https://github.com/nayeem-sama/PortFolio-v2",
-    "image": "assets/images/portfolion.webp",
-    "imageFirst": true,
+        "🫙 MoodJar – Mood = Coin \n\n"
+        "🛠 Features:\n"
+        "🎥 Real-Time Emotion Detection: Detects expressions in real-time using models\n"
+        "💰 Smile-to-Earn Mechanism: Converts smile intensity into tokens\n"
+        "👤 User Dashboard: Displays current coin balance, smiles and many other features\n"
+        "🔧 Tech Stack: Flutter | TenserFlow | Blockchain\n"
+        "✅ Status: Live & Active",
+    "github": "https://github.com/nayeemsama2000/mood_jar",
   },
-
+  {
+    "title": "🏃 Hopper",
+    "description":
+    "```shell\n"
+        "nayeem-sama@dev:~\$ cd Hopper\n"
+        "nayeem-sama@dev:~/Portfolio\$ flutter build run\n"
+        "[✔] Compiling... Done!\n"
+        "```\n\n"
+        "🏃 Hopper – Jump, Dodge, repeat!! \n\n"
+        "🛠 Features:\n"
+        "🟡 Simple Yet Challenging Gameplay: Easy to play, hard to master platform jumping\n"
+        "⭐ Collect & Conquer: Grab stars and complete levels with precision jumps.\n"
+        "👾 Dodge Enemies: Outsmart blue blobs and avoid falling into traps\n"
+        "🔧 Tech Stack: Flutter | Flame \n"
+        "✅ Status: Live & Active",
+    "github": "",
+  },
 ];

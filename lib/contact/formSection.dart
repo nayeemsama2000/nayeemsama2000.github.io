@@ -23,6 +23,11 @@ class _FormSectionState extends State<FormSection> {
   bool isSubmitting = false;
   String? errorMessage;
 
+  final serviceId = 'service_gyaftvt';
+  final templateId = 'template_17i3prc';
+  final publicKey = 'VgYe5cNmeosrl57rN';
+
+
   final RegExp emailRegex = RegExp(
     r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$",
   );
@@ -43,17 +48,23 @@ class _FormSectionState extends State<FormSection> {
       errorMessage = null;
     });
 
-    final Uri apiUrl = Uri.parse("https://apinilesh.vercel.app/api/send_email");
+    final Uri apiUrl = Uri.parse("https://api.emailjs.com/api/v1.0/email/send");
 
     try {
       final response = await http.post(
         apiUrl,
         headers: {"Content-Type": "application/json"},
-        body: jsonEncode({
-          "name": _nameController.text.trim(),
-          "email": _emailController.text.trim(),
-          "message": _messageController.text.trim(),
-        }),
+        body: jsonEncode(
+            {
+              'service_id': serviceId,
+              'template_id': templateId,
+              'user_id': publicKey,
+              'template_params': {
+                'name': _nameController.text.trim(),
+                'email': _emailController.text.trim(),
+                'message': _messageController.text.trim(),
+              }
+            }),
       );
 
       if (response.statusCode == 200) {

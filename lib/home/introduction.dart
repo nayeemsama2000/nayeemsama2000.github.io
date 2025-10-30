@@ -70,7 +70,7 @@ class IntroWidget extends StatelessWidget {
                   ),
                 ),
                 TypewriterAnimatedText(
-                  'Student',
+                  'Web Developer',
                   speed: const Duration(milliseconds: 100),
                   textStyle: GoogleFonts.spaceMono(
                     color: isDarkMode ? primaryColor : primaryColorLight,

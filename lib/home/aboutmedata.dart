@@ -1,7 +1,7 @@
 const String fullAboutMeText = """
-Hi, I'm Nilesh Prajapat!  
+Hi, I'm Nayeem Sama!  
 
-**Flutter Developer** | **FPS Gamer** | **Computer Science Student** | **Aspiring Game Developer**  
+**Flutter Developer** | **Full-Stack Developer** | **Aspiring Game Developer**  
 
 **Education:** Diploma in Computer Science & Engineering **(Graduating June 2025)**  
 
@@ -21,11 +21,11 @@ I’m always open to new opportunities, collaborations, and discussions around m
 """;
 
 const String shortAboutMeText = """
-Hi, I'm Nilesh Prajapat!  
+Hi, I'm Nayeem Sama!  
 
-**Flutter Developer** | **FPS Gamer** | **CSE Student** | **Aspiring Game Developer**  
+\n\n**Flutter Developer** | **Full-Stack Developer** | **Aspiring Game Developer**
 
-**Education:** Diploma in **CSE** **(Graduating June 2025)** 
+**Education:** Bachelor's Degree in **CE** **(Graduating March 2022)**
 
 Passionate about **Flutter app development**, focusing on **performance, optimization, and real-time functionality**.  
 

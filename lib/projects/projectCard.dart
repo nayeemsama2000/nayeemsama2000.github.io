@@ -113,7 +113,7 @@ class _ProjectDetailed2State extends State<ProjectDetailed2> {
               const SizedBox(height: 15),
 
               // GitHub Link - Appears after animation completes
-              if (_isAnimationComplete)
+              if (_isAnimationComplete && project['github']!='')
                 GestureDetector(
                   onTap: () async {
                     final String githubUrl = project['github'] ?? '';

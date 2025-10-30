@@ -91,6 +91,10 @@ flutter:
   assets:
     - assets/
     - assets/images/
+    - assets/images/connect/
+    - assets/images/hopper/
+    - assets/images/moodjar/
+    - assets/images/starship/
     - assets/icon/
     - assets/icon/skills/
 

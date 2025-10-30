@@ -33,7 +33,7 @@ class _ProjectsecState extends State<Projectsec> {
       children: [
         SmoothPageIndicator(
           controller: PageController(initialPage: _currentIndex), // Temporary controller
-          count: 3, // Adjust based on project count
+          count: 4, // Adjust based on project count
           effect: ExpandingDotsEffect(
             dotHeight: 8,
             dotWidth: 8,
@@ -50,9 +50,10 @@ class _ProjectsecState extends State<Projectsec> {
             children: [
               AppCard(
                 mockupImages: [
-                  "assets/images/appstore.webp",
-                  "assets/images/portfolioold.webp",
-                  "assets/images/portfolionew.webp",
+                  "assets/images/connect/chat.webp",
+                  "assets/images/starship/ship.webp",
+                  "assets/images/moodjar/detector.webp",
+                  "assets/images/hopper/jump.webp",
                 ],
                 onIndexChanged: updateIndex,
               ),
@@ -65,9 +66,10 @@ class _ProjectsecState extends State<Projectsec> {
             children: [
               AppCard(
                 mockupImages: [
-                  "assets/images/classhub.webp",
-                  "assets/images/classhub.webp",
-                  "assets/images/portfolion.webp",
+                  "assets/images/connect/chat.webp",
+                  "assets/images/starship/ship.webp",
+                  "assets/images/moodjar/detector.webp",
+                  "assets/images/hopper/jump.webp",
                 ],
                 onIndexChanged: updateIndex,
               ),
