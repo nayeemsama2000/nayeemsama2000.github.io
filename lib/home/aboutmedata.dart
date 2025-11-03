@@ -1,41 +1,45 @@
 const String fullAboutMeText = """
-Hi, I'm Nayeem Sama!  
+👋 Hi, I'm Nayeem Sama!
 
-**Flutter Developer** | **Full-Stack Developer** | **Aspiring Game Developer**  
+**Flutter Developer** | **Full-Stack Developer** | **Aspiring Game Developer**
 
-**Education:** Diploma in Computer Science & Engineering **(Graduating June 2025)**  
+I'm a software developer with **3+ years** of hands-on experience, based in Rajkot, Gujarat (India) — passionate about building smooth, scalable, and visually engaging digital experiences.
 
-I am a passionate **Flutter developer** with a keen interest in **building high-performance mobile applications** that offer smooth UI/UX and real-time functionality.  
+🎓 Education:
 
-**Gaming & Competitive Mindset**  
-As an avid **Valorant** and **CS2** player, I thrive in high-stakes, strategy-driven environments that demand precision, quick decision-making, and adaptability—skills I bring into my development work.  
+Bachelor of Engineering (B.E.) in Computer Science – Graduated in 2022 from Gujarat Technological University (GTU) with **Distinction (7.9 CGPA)**
 
-**Continuous Learning & Growth**  
-I am constantly exploring **app optimization techniques**, **real-time data handling**, and **scalable architectures** to enhance mobile experiences.  
+💻 Core Expertise:
 
-**Future Aspirations**  
-My goal is to transition into **game development**, focusing on creating **immersive survival games** with realistic mechanics and compelling storytelling.  
+Mobile App Development: Flutter (primary), React Native, and Android (Java/Kotlin)
 
-**Let’s Connect & Innovate!**  
-I’m always open to new opportunities, collaborations, and discussions around mobile and game development.  
+Frontend Development: React.js, Angular
+
+Backend & Cloud: Firebase, AWS, Node.js, Express.js
+
+Version Control & CI/CD: Git, GitHub Actions, and Firebase Hosting
+
+🚀 What drives me:
+I love crafting seamless **cross-platform** applications that feel native on every device. My focus lies in clean architecture, modern UI/UX, and performance optimization — whether it’s a startup MVP or a full-scale production app.
+
+🌍 Open for:
+
+**Remote** opportunities in mobile or full-stack development
+
+Collaborations in app, web, or even game development
+
+🎮 Next step:
+I’m expanding my journey into game development, blending creativity with technical depth to bring ideas to life.
 """;
 
 const String shortAboutMeText = """
-Hi, I'm Nayeem Sama!  
+Hi, I'm Nayeem Sama
 
 \n\n**Flutter Developer** | **Full-Stack Developer** | **Aspiring Game Developer**
 
-**Education:** Bachelor's Degree in **CE** **(Graduating March 2022)**
+I’m a software developer with over 3 years of experience, based in Rajkot, Gujarat. My core strength lies in mobile app development using Flutter, React Native, and Android, along with experience in React, Angular, and backend integration using Firebase, AWS, Node.js, and Express.js.
 
-Passionate about **Flutter app development**, focusing on **performance, optimization, and real-time functionality**.  
+I hold a B.E. in Computer Science (GTU, 2022) with Distinction (7.9 CGPA).
 
-**Gaming Enthusiast**  
-Competitive **Valorant & CS2** player—leveraging strategy, precision, and quick reflexes both in gaming and development.  
-
-**Always Learning**  
-Exploring **real-time data handling** and **scalable mobile solutions**.  
-
-**Future Goal:** To develop **realistic survival games** with deep mechanics and engaging storytelling.  
-
-**Open to collaboration & new opportunities!**  
+I’m passionate about creating high-performance, scalable apps with clean architecture and smooth user experiences. Open to remote opportunities and collaborations across app, web, or game development.
 """;
